@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Coding Quiz Challenge</title>
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+</head>
+
+<body>
+    <header>
+        <a href="highscores.html"><span class="button-scores">View Highscores</span></a>
+        <div class="timer">Time <span class="timer-count">60</span></div>
+    </header>
+
+    <main>
+        <h1>Coding Quiz Challenge</h1>
+        <div class="container hide"> 
+            <div>Answer the following quiz to explore your coding knowledge! Instructions: Select the correct answers and complete the quiz before the timer stops. Warning: If you get an incorrect answer you'll loose 10 seconds off the timer. Best of luck! 🍀🤓
+            </div>
+        </div>
+        <div>
+            <button class="start-button hide">Start Quiz</button>
+        </dov>
+
+        <div class="screen-questions"> 
+            <p class="question"></p>
+            <div class="answers"></div>
+        </div>
+
+        <div class="alert"></div>
+
+        <div class="results-screen">
+            <h3>All done!</h3>
+            <div class="container">Your final score is<span class="score"></span> </div>
+            <div class="container">Enter your name: <input type="text" name="name" id="name"></div> 
+            <a href="highscores.html"><button class="submit-button">Submit</button></a>
+        </div>
+
+        <div class="time-out">
+            <h3>Time Out!</h3>
+            <div class="container">Your final score is<span class="score"></span> </div>
+            <div class="container">Enter your name: <input type="text" name="name" id="name"></div> 
+            <a href="highscores.html"><button class="submit-button">Submit</button></a>
+        </div>
+
+    </main>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/highscores.js"></script>
+</body>
