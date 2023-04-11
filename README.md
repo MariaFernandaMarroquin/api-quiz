@@ -53,9 +53,8 @@ Highscores Screen
 
 ## Deployed Application
 
-* Application user experience is intuitive and easy to navigate.
+https://mariafernandamarroquin.github.io/api-quiz/
 
-escribing the project.
 ---
 
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved. María Fernanda Marroquín
